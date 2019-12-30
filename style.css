@@ -1,0 +1,1131 @@
+*
+{
+    margin: auto;
+}
+                    /*LAYOUT DIVS START*/        
+
+.container
+{
+    width: 100%;
+    background: white;
+    height: 1400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+header
+{
+    width: 1300px;
+    background: #181817;
+    height: 220px;
+    
+}
+section
+{
+    width: 1300px;
+    background: url(Images/BG/sectionBg2.png);
+    height: 1700px;
+}
+.menusection
+{
+    width: 1300px;
+    background: #181817;
+    height: 2300px;
+}
+.weekendsection
+{
+    width: 1300px;
+    background: #181817;
+    height: auto;
+}
+.ourstorysection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1200px;
+}
+.ourstoryParagraph
+{
+    width: 1200px;
+    background: #181817;
+    height: 600px;
+}
+.privacyparagraph
+{
+    width: 1200px;
+    background: #181817;
+    height: auto; 
+}
+.combosection
+{
+    width: 1300px;
+    background: #181817;
+    height: auto;  
+}
+.gallerysection
+{
+    width: 1300px;
+    background: #181817;
+    height: 3300;  
+}
+.privacysection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1500;  
+}
+.termsection
+{
+    width: 1300px;
+    background: #181817;
+    height: 2400;
+}
+.locationsection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1200;
+}
+.careerssection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1250px;
+}
+.contactsection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1100px; 
+}
+.franchiseesection
+{
+    width:1300px;	
+    background: #181817;
+	height: 1190px; 
+}
+.faqssection
+{
+    width: 1300px;
+    background-color: #181817;
+    height: 1000px;
+}
+.locationsec
+{
+    width: 1300px;
+    background-color: #181817;
+    height: 1200px;
+}
+.xfooter
+{
+    width: 1300px;
+    background: #181817;
+    height: 660px;  
+}
+a
+{
+    text-decoration: none;
+	color: white;
+	
+}
+a:hover
+{
+	text-decoration: none;
+	color: red;	
+}
+li
+{
+	display:inline;
+	padding:6px;
+	font-size:16px;
+}
+li:hover
+{
+	display:inline;
+	padding:6px;
+	font-size:16px;
+	color: red; 
+}
+ul
+{
+	color: white;
+}
+ul:hover
+{
+	color: red;   
+}
+.headingfont
+{
+    color: aliceblue;
+    font-size: 40; 
+    font-family: "sans-serif, Arial";
+}
+.storyfont
+{
+    color: white;
+    font-family: "sans-serif, Arial";
+    font-size: 21px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+                    /*LAYOUT DIVS END*/
+
+                    /*HEADER DIV START*/
+.logo
+{
+	height:180px;
+	width:180px;
+    background:url(Images/LOGO/logo.png);
+    background-size: 180px 180px;
+	float:left;	
+	margin-left: 20px;
+}
+.namediv
+{
+	width: 580px;
+	height: 130px;
+	background: url(Images/LOGO/Name.png);
+    background-size: 580px 130px;
+}
+.menudownload
+{
+	width: 150px;
+	height: 60px;
+	float:right;
+	margin-top: 60px;
+    margin-right: 20px;
+}
+nav
+{
+    width:40%;
+	height:48px;
+    background: black;
+	box-shadow: 10px 10px 5px black;
+    line-height: 46px;
+    border-radius: 10px 0px;	
+}
+                        /*HEADER DIV END*/
+
+                        /*HOME PAGE DIV START*/
+.slider
+{
+    width: 1300px;
+    height: 450px;
+    box-shadow: 10px 10px 5px black;
+}
+.homepageleftdiv
+{
+    width: 640px;
+    height: 150px;
+    background: url(Images/HOME/wow_small_slider.jpg);
+    background-size: 640px 150px;
+    
+    float: left;
+}
+.homepagerightdiv
+{
+    width: 640px;
+    height: 150px;
+    background: url(Images/HOME/wow-deal-add-ons-small-banner.jpg);
+    background-size: 640px 150px;
+    
+    float: right;
+}
+.pictureleft
+{
+    width: 696px;
+    background: url(Images/HOME/Home.png);
+    height: 515px;
+    float: left;
+    margin-left: 80px;
+}
+.pictureright
+{
+    width: 316px;
+    background: red;
+    background: url(Images/HOME/Home2.png);
+    background-size: 316px 515px;
+    height: 515px;
+    float: right;
+    margin-right: 90px;
+}
+.lastimage
+{
+    width: 800px;
+    background: yellow;
+    height: 200px;
+    float: left;
+    margin-left: 80px;
+}
+                        /*HOME PAGE DIV END*/
+
+
+
+                        /*MENU PAGE DIV START*/
+
+.maindiv
+{
+    width: 900px;
+    background: red;
+    height:1930px;
+    filter: blur(5px);
+}
+#container
+{
+  position:relative;
+  width:900px;
+  height:auto;
+}
+.overlay 
+{
+  position:absolute;
+  bottom:0;
+  top:0;
+  left: 0;
+  right:0;
+  width:0;
+  height:100%;
+  transition:.5s ease;
+  opacity:0.1;
+  background:black;
+}
+
+#container:hover .overlay
+{
+  opacity:1.0;
+}
+.text
+{
+  color:white;
+  font-size:100px;
+  position:absolute;
+  overflow:hidden;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+    opacity: 0.8;
+    transition: 2s ;
+}
+
+.pizza
+{
+	height:300px;
+	width:900px;
+    box-shadow: 10px 10px 5px black;
+    
+}
+
+
+.Garlic
+{
+	height:300px;
+	width:900px;
+    box-shadow: 10px 10px 5px black;
+}
+.Sandwiches
+{
+	height:300px;
+	width:900px;	
+    box-shadow: 10px 10px 5px black;
+}
+.Desserts
+{
+	height:300px;
+	width:900px;	
+    box-shadow: 10px 10px 5px black;
+}
+.Beverges
+{
+	height:300px;
+	width:900px;	
+	box-shadow: 10px 10px 5px black;
+}
+
+
+                        /*MENU PAGE DIV END*/
+
+				
+
+                    /*GALLERY DIV START*/
+
+.pic1
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic3.jpg);
+	background-size:400px 300px;	
+	margin-left:20px;
+	float:left;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+    
+    
+	
+}
+.pic1:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic3.jpg);
+	background-size:400px 300px;	
+	margin-left:20px;
+	float:left;
+	opacity:1.0;
+	transition:.5s ease;
+	
+}
+.pic2
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic7.jpg);
+	background-size:400px 300px;
+	float:right;
+	border-radius: 8px;
+	margin-right:20px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+    
+}
+.pic2:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic7.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:1.0;
+	transition:.5s ease;
+	
+}
+.pic3
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic5.jpg);
+	background-size:425px 300px;
+	border-radius: 8px;
+    opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+	
+}
+.pic3:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic5.jpg);
+	background-size:425px 300px;
+	border-radius: 8px;
+    opacity:1.0;
+	transition:.5s ease;
+
+	
+}
+.pic4
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic6.jpg);
+	background-size:400px 300px;	
+	margin-left:20px;
+	float:left;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic4:hover
+{
+	height:300px;
+	width:400x;
+	background:url(Images/GALLERY/pic6.jpg);
+	background-size:400px 300px;	
+	margin-left:20px;
+	float:left;
+    opacity:1.0;
+	transition:.5s ease;
+
+}
+.pic5
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic13.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+	
+}
+.pic5:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic13.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic6
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic14.jpg);
+	background-size:400px 300px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+	
+}
+.pic6:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic14.jpg);
+	background-size:400px 300px;
+	opacity:1.0;
+	transition:.5s ease;
+	
+}
+
+
+.pic7
+{
+	height:500px;
+	width:1250px;
+	background:url(Images/GALLERY/pic15.jpg);
+	background-size:1250px 500px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic7:hover
+{
+	height:500px;
+	width:1250px;
+	background:url(Images/GALLERY/pic15.jpg);
+	background-size:1250px 500px;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic8
+{
+	height:500px;
+	width:1250px;
+	background:url(Images/GALLERY/pic1.jpg);
+	background-size:1250px 500px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic8:hover
+{
+	height:500px;
+	width:1250px;
+	background:url(Images/GALLERY/pic1.jpg);
+	background-size:1250px 500px;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic9
+{
+	height:300px;
+	width:400px;
+    background: url(Images/GALLERY/pic10.jpg);
+	background-size:400px 300px;
+	margin-left:20px;
+	float:left;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic9:hover
+{
+	height:300px;
+	width:400px;
+    background: url(Images/GALLERY/pic10.jpg);
+	background-size:400px 300px;
+	margin-left:20px;
+	float:left;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic10
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic11.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic10:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic11.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:1.0;
+	transition:.5s ease;
+	
+}
+.pic11
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic8.jpg);
+	background-size:400px 300px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+	
+}
+.pic11:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic8.jpg);
+	background-size:400px 300px;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic12
+{
+	height:500px;
+	width:1250px;
+	background:url(Images/GALLERY/pic4.jpg);
+	background-size:1250px 500px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic12:hover
+{
+	height:500px;
+	width:1250px;
+	background:url(Images/GALLERY/pic4.jpg);
+	background-size:1250px 500px;
+    opacity:1.0;
+	transition:.5s ease;
+}
+.pic13
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic17.jpg);
+	background-size:400px 300px;
+	margin-left:20px;
+	float:left;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic13:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic17.jpg);
+	background-size:400px 300px;
+	margin-left:20px;
+	float:left;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic14
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic9.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic14:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic9.jpg);
+	background-size:400px 300px;
+	float:right;
+	margin-right:20px;
+	opacity:1.0;
+	transition:.5s ease;
+}
+.pic15
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic16.jpg);
+	background-size:400px 300px;
+	opacity:0.5;
+	transition:.5s ease;
+    border: solid 5px white;
+    border-radius: 8px;
+}
+.pic15:hover
+{
+	height:300px;
+	width:400px;
+	background:url(Images/GALLERY/pic16.jpg);
+	background-size:400px 300px;
+	opacity:1.0;
+	transition:.5s ease;
+}
+
+
+
+
+                    /*GALLERY DIV END*/
+
+
+                    /*COMBO DIV START*/
+
+
+				/*<!--Line One Start-->*/
+
+.dealone
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/COMBO/combo1.png);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+}
+.dealtwo
+{
+	height:250px;
+	width:300px;
+	background:url(Images/COMBO/Combo2.png);
+	background-size:300px 250px;
+	margin-right:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+
+
+				/*<!--Line One End-->*/
+
+				/*<!--Line Two Start-->*/
+
+.dealthree
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/COMBO/combo3.png);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+}
+.dealfour
+{
+	height:250px;
+	width:300px;
+	background:url(Images/COMBO/Combo4.png);
+	background-size:300px 250px;
+	margin-right:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+
+				/*<!--Line Two End-->*/
+.dealfive
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/COMBO/combo5.png);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+}
+.dealsix
+{
+	height:250px;
+	width:300px;
+	background:url(Images/COMBO/Combo6.png);
+	background-size:300px 250px;
+	margin-right:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+
+
+				/*<!--COMBO DIV END-->*/
+
+          /* STORE LOCATION DIV START */
+.mapdiv
+{
+    width: 805px;
+   
+    background: url(Map/map2.PNG);
+    background-size: 805px 504px;
+    height: 504px;
+  
+}
+.secondmapdiv
+{
+    width: 100%;
+    background: url(Images/MAP/Capture.PNG);
+    height: 664px;  
+}
+.mapline
+{
+    width:100%;
+    background: #827c7b;
+    opacity: 0.1;
+    height: 2px;
+}
+.locationdiv
+{
+    width: 1200px;
+    height: 1200px;
+}
+.overflow
+{
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+            /*STORE LOCATION DIV END*/
+
+          /*CAREERS DIV START*/
+
+input, select
+{
+    width: 40%;
+    padding: 9px 20px;
+    margin: 3px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+.formdiv
+{
+    width:55%;
+}
+.headingdivcolor
+{
+    width: 360px;
+    float: left;
+    margin-left: 320px;
+    background: red;
+    border-radius: 100px  
+}
+.headingdivv
+{
+    
+    float: left;
+    margin-left: 20px;
+}
+textarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submits]
+{
+    background: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100px;
+}
+input[type=Atext]
+{
+    width: 83%;
+    padding: 9px 20px;
+    margin: 3px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+            /*CAREERS DIV END*/
+
+           /*CONTACT DIV START*/
+
+.contactformdiv
+{
+    width:55%;
+}
+.Ctextarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+input[type=submit]
+{
+    background: red;
+    width: 15%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100px;
+}
+                /*CONTACT DIV END*/
+                
+                /*FAQ DIV START*/
+
+.faqdiv
+{
+    width: 75%;
+    height: auto;
+}
+#faqsdropdown
+{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #181817;
+    margin-top: 20px;
+}
+
+
+
+                /*FAQ DIV ENDS*/
+
+     /*WEEKEND DIV START*/
+.weekdivone
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/WEEKEND/weekend1.jpg);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+		
+}
+.weekdivtwo
+{
+	height:250px;
+	width:300px;
+	background:url(Images/WEEKEND/weekend2.jpg);
+	background-size:300px 250px;
+	margin-right:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+.weekdivthree
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/WEEKEND/weekend3.png);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+		
+}
+.weekdivfour
+{
+	height:250px;
+	width:300px;
+	background:url(Images/WEEKEND/weekend4.png);
+	background-size:300px 250px;
+	margin-right:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+.weekdivfive
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/WEEKEND/weekend5.jpg);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+		
+}
+.weekdivsix
+{
+	height:250px;
+	width:300px;
+	background:url(Images/WEEKEND/weekend6.png);
+	background-size:300px 250px;
+	margin-right:200px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+  /*WEEKEND DIV ENDS*/
+
+
+                        /*FOOTER DIV START*/
+footer
+{
+    width: 1300px;
+    background: #181817;
+    height: 300px;
+}
+.leftdivfooter
+{
+    width: 50%;
+    
+    height: 200px;
+    float: left;
+}
+.Lsubdivone
+{
+    width: 30%;
+    
+    height: 190px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;  
+}
+.Lsubdivtwo
+{
+    width: 30%;
+   
+    height: 190px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;  
+}
+
+.line
+{
+    width: 90%;
+    background: #827c7b;
+    height: 2px;
+}
+
+
+
+.rightdivfooter
+{
+    width: 50%;
+   
+    height: 200px;
+    float: right;
+} 
+.Rsubdivone
+{
+    width: 30%;
+   
+    height: 190px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;  
+}
+.Rsubdivtwo
+{
+    width: 30%;
+    
+    height: 190px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;  
+}
+.lastdiv
+{
+    width: 1300px;
+    
+    height: 200px;
+    float: right;
+   
+}
+.legalstuffleft
+{
+    width: 150;
+    
+    height: 200px;
+    float: left;
+   margin-left: 159px;
+}
+.legalstuffright
+{
+    width: 820;
+   
+    height: 200px;
+    float: right;
+    margin-right: 150px;
+   
+}
+    /*FOOTER DIV END*/

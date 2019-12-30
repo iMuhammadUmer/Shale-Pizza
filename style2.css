@@ -1,0 +1,1913 @@
+*
+{
+    margin: auto;
+}
+                    /*LAYOUT DIVS START*/        
+
+.container
+{
+    width: 100%;
+    background: white;
+    height: 1400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+header
+{
+    width: 1300px;
+    background: #181817;
+    height: 220px;
+    
+}
+section
+{
+    width: 1300px;
+    background: url(Images/BG/sectionBg2.png);
+    height: 1700px;
+}
+.menusection
+{
+    width: 1300px;
+    background: #181817;
+    height: auto;
+}
+            
+.ourstorysection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1200px;
+}
+.ourstoryParagraph
+{
+    width: 1200px;
+    background: #181817;
+    height: 600px;
+}
+.privacyparagraph
+{
+    width: 1200px;
+    background: #181817;
+    height: auto; 
+}
+.combosection
+{
+    width: 1300px;
+    background: #181817;
+    height: auto;  
+}
+.gallerysection
+{
+    width: 1300px;
+    background: #181817;
+    height: auto;  
+}
+.privacysection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1500;  
+}
+.termsection
+{
+    width: 1300px;
+    background: #181817;
+    height: 2400;
+}
+.locationsection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1200;
+}
+.careerssection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1250px;
+}
+.contactsection
+{
+    width: 1300px;
+    background: #181817;
+    height: 1100px; 
+}
+.franchiseesection
+{
+    width:1300px;	
+    background: #181817;
+	height: 1190px; 
+}
+.faqssection
+{
+    width: 1300px;
+    background-color: #181817;
+    height: 1000px;
+}
+.xfooter
+{
+    width: 1300px;
+    background: #181817;
+    height: 660px;  
+}
+a
+{
+    text-decoration: none;
+	color: white;
+	
+}
+a:hover
+{
+	text-decoration: none;
+	color: red;	
+}
+li
+{
+	display:inline;
+	padding:6px;
+	font-size:16px;
+
+}
+li:hover
+{
+	display:inline;
+	padding:6px;
+	font-size:16px;
+	color: red;   
+}
+ul
+{
+	color: white;
+}
+ul:hover
+{
+	color: red;
+    
+}
+.headingfont
+{
+    color: aliceblue;
+    font-size: 40; 
+    font-family: "sans-serif, Arial";
+}
+.storyfont
+{
+    color: white;
+    font-family: "sans-serif, Arial";
+    font-size: 21px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+                    /*LAYOUT DIVS END*/
+
+                    /*HEADER DIV START*/
+.logo
+{
+	height:160px;
+	width:160px;
+    background:url(Images/LOGO/logo.png);
+    background-size: 160px 160px;
+	float:left;	
+	margin-left: 20px;
+}
+.namediv
+{
+	width: 580px;
+	height: 130px;
+	background: url(Images/LOGO/Name.png);
+    background-size: 580px 130px;
+}
+@keyframes shake {
+    0%  { transform:  translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.menudownload
+{
+	width: 150px;
+	height: 60px;
+	float:right;
+	margin-top: 60px;
+    margin-right: 20px;
+}
+nav
+{
+    width:45%;
+	height:48px;
+    background: black;
+	box-shadow: 10px 10px 5px black;
+    line-height: 46px;
+    border-radius: 10px 0px;	
+}
+
+
+                        /*HEADER DIV END*/
+
+                        /*HOME PAGE DIV START*/
+.slider
+{
+    width: 1300px;
+    background: green;
+    height: 450px;
+    box-shadow: 10px 10px 5px black;
+}
+.homepageleftdiv
+{
+    width: 640px;
+    height: 150px;
+    background: url(Images/HOME/wow_small_slider.jpg);
+    background-size: 640px 150px;
+    
+    float: left;
+}
+.homepagerightdiv
+{
+    width: 640px;
+    height: 150px;
+    background: url(Images/HOME/wow-deal-add-ons-small-banner.jpg);
+    background-size: 640px 150px;
+    
+    float: right;
+}
+.pictureleft
+{
+    width: 696px;
+    background: url(Images/HOME/Home.png);
+    height: 515px;
+    float: left;
+    margin-left: 80px;
+}
+.pictureright
+{
+    width: 316px;
+    background: red;
+    background: url(Images/HOME/Home2.png);
+    background-size: 316px 515px;
+    height: 515px;
+    float: right;
+    margin-right: 90px;
+}
+.lastimage
+{
+    width: 800px;
+    background: yellow;
+    height: 200px;
+    float: left;
+    margin-left: 80px;
+}
+                        /*HOME PAGE DIV END*/
+
+
+
+                        /*MENU PAGE DIV START*/
+
+.maindiv
+{
+    width: 900px;
+    background: red;
+    height:1930px;
+    filter: blur(5px);
+}
+#container
+{
+  position:relative;
+  width:900px;
+  
+}
+.overlay 
+{
+  position:absolute;
+  bottom:100%;
+  left:0;
+  right:0;
+  top:0;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:.9s;
+  background:url(Images/MENU/overlay.jpg);
+  background-size:900px 300px;
+  border-radius:18px 18px;
+  
+
+}
+
+#container:hover .overlay
+{
+  opacity:1;
+  border-radius:18px 18px;
+  bottom:0;
+	
+}
+
+.text
+{
+  color:white;
+  font-family:"sans-serif, Arial";
+  font-size:100px;
+  position:absolute;
+  top:50%;
+  overflow:hidden;
+  left:50%;
+  transform:translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+
+  
+}
+.pizza
+{
+	height:300px;
+	width:900px;
+	border-radius:18px 18px;
+}
+
+.Garlic
+{
+	height:300px;
+	width:900px;
+    border-radius:18px 18px;
+}
+.Sandwiches
+{
+	height:300px;
+	width:900px;	
+    border-radius:18px 18px;
+}
+.Desserts
+{
+	height:300px;
+	width:900px;	
+    border-radius:18px 18px;
+}
+.Beverages
+{
+	height:300px;
+	width:900px;	
+	border-radius:18px 18px;
+}
+.Appetizer
+{
+	height:300px;
+	width:900px;	
+	border-radius:18px 18px;
+}
+
+.ExtraToppings
+{
+	height:300px;
+	width:900px;	
+	border-radius:18px 18px;
+}
+
+
+
+                        /*MENU PAGE DIV END*/
+
+				
+
+                    /*GALLERY DIV START*/
+
+.pic1
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G8.jpg);
+	background-size:300px 250px;	
+	margin-left:100px;
+	float:left;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius: 8px;
+    border-radius:30px 0px;
+	border-style:outset;
+  
+    
+	
+}
+.pic1:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G8.jpg);
+	background-size:300px 250px;	
+	margin-left:100px;
+	float:left;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+	
+}
+.pic2
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G19.jpg);
+	background-size:300px 250px;
+	float:right;
+	border-radius: 8px;
+	margin-right:100px;
+	opacity:0.3;
+	transition:.5s ease;
+   border-radius:30px 0px;
+	border-style:outset;
+    
+}
+.pic2:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G19.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:1.0;
+	border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.pic3
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G29.jpg);
+	background-size:300px 250px;
+	border-radius: 8px;
+    opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.pic3:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G29.jpg);
+	background-size:300px 250px;
+    opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+
+	
+}
+.pic4
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G4.jpg);
+	background-size:300px 250px;	
+	margin-left:100px;
+	float:left;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic4:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G4.jpg);
+	background-size:300px 250px;	
+	margin-left:100px;
+	float:left;
+    opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+
+}
+.pic5
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G17.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.pic5:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G17.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic6
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G24.jpg);
+	background-size:300px 250px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.pic6:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G24.jpg);
+	background-size:300px 250px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+}
+
+
+.pic7
+{
+	height:400px;
+	width:1090px;
+	background:url(Images/GALLERY/G1.jpg);
+	background-size:1090px 400px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic7:hover
+{
+	height:400px;
+	width:1090px;
+	background:url(Images/GALLERY/G1.jpg);
+	background-size:1090px 400px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic8
+{
+	height:400px;
+	width:1090px;
+	background:url(Images/GALLERY/G28.jpg);
+	background-size:1090px 400px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic8:hover
+{
+	height:400px;
+	width:1090px;
+	background:url(Images/GALLERY/G28.jpg);
+	background-size:1090px 400px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic9
+{
+	height:250px;
+	width:300px;
+    background:url(Images/GALLERY/G39.jpg);
+	background-size:300px 250px;
+	margin-left:100px;
+	float:left;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic9:hover
+{
+	height:250px;
+	width:300px;
+    background:url(Images/GALLERY/G39.jpg);
+	background-size:300px 250px;
+	margin-left:100px;
+	float:left;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic10
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G25.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic10:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G25.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.pic11
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G11.jpg);
+	background-size:300px 250px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.pic11:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G11.jpg);
+	background-size:300px 250px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic12
+{
+	height:400px;
+	width:1090px;
+	background:url(Images/GALLERY/G3.jpg);
+	background-size:1090px 400px;
+	opacity:0.3;
+	transition:.5s ease;
+   border-radius:30px 0px;
+	border-style:outset;
+}
+.pic12:hover
+{
+	height:400px;
+	width:1090px;
+	background:url(Images/GALLERY/G3.jpg);
+	background-size:1090px 400px;
+    opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic13
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G12.jpg);
+	background-size:300px 250px;
+	margin-left:100px;
+	float:left;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic13:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G12.jpg);
+	background-size:300px 250px;
+	margin-left:100px;
+	float:left;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic14
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G41.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic14:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G41.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic15
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G42.jpg);
+	background-size:300px 250px;
+	opacity:0.3;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+.pic15:hover
+{
+	height:250px;
+	width:300px;
+	background:url(Images/GALLERY/G42.jpg);
+	background-size:300px 250px;
+	opacity:1.0;
+	transition:.5s ease;
+    border-radius:30px 0px;
+	border-style:outset;
+}
+
+
+
+
+                    /*GALLERY DIV END*/
+
+              
+          /* STORE LOCATION DIV START */
+.mapdiv
+{
+    width: 805px;
+   
+    background: url(Map/map2.PNG);
+    background-size: 805px 504px;
+    height: 504px;
+  
+}
+.secondmapdiv
+{
+    width: 100%;
+    background: url(Images/MAP/Capture.PNG);
+    height: 664px;  
+}
+.mapline
+{
+    width:100%;
+    background: #827c7b;
+    opacity: 0.1;
+    height: 2px;
+}
+.locationdiv
+{
+    width: 1200px;
+    height: 1200px;
+}
+.overflow
+{
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+            /*STORE LOCATION DIV END*/
+
+          /*CAREERS DIV START*/
+
+input, select
+{
+    width: 40%;
+    padding: 9px 20px;
+    margin: 3px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+.formdiv
+{
+    width:55%;
+}
+.headingdivcolor
+{
+    width: 360px;
+    float: left;
+    margin-left: 320px;
+    background: red;
+    border-radius: 100px  
+}
+.headingdivv
+{
+    
+    float: left;
+    margin-left: 20px;
+}
+textarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submits]
+{
+    background: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100px;
+}
+input[type=Atext]
+{
+    width: 83%;
+    padding: 9px 20px;
+    margin: 3px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+            /*CAREERS DIV END*/
+
+           /*CONTACT DIV START*/
+
+.contactformdiv
+{
+    width:55%;
+}
+.Ctextarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+input[type=submit]
+{
+    background: red;
+    width: 15%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100px;
+}
+                /*CONTACT DIV END*/
+                
+                /*FAQ DIV START*/
+
+.faqdiv
+{
+    width: 75%;
+    height: auto;
+}
+#faqsdropdown
+{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #181817;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+                /*FAQ DIV ENDS*/
+
+
+
+
+                        /*FOOTER DIV START*/
+footer
+{
+    width: 1300px;
+    background: #181817;
+    height: 300px;
+}
+.leftdivfooter
+{
+    width: 50%;
+    
+    height: 200px;
+    float: left;
+}
+.Lsubdivone
+{
+    width: 30%;
+    
+    height: 190px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;  
+}
+.Lsubdivtwo
+{
+    width: 30%;
+   
+    height: 190px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;  
+}
+
+.line
+{
+    width: 90%;
+    background: #827c7b;
+    height: 2px;
+}
+
+
+
+.rightdivfooter
+{
+    width: 50%;
+   
+    height: 200px;
+    float: right;
+} 
+.Rsubdivone
+{
+    width: 30%;
+    
+    height: 190px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;  
+}
+.Rsubdivtwo
+{
+    width: 30%;
+    
+    height: 190px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;  
+}
+.lastdiv
+{
+    width: 1300px;
+    
+    height: 200px;
+    float: right;
+   
+}
+.legalstuffleft
+{
+    width: 150;
+    
+    height: 200px;
+    float: left;
+   margin-left: 159px;
+}
+.legalstuffright
+{
+    width: 820;
+   
+    height: 200px;
+    float: right;
+    margin-right: 150px;
+   
+}
+    /*FOOTER DIV END*/
+	
+
+
+                  /*menu starts*/
+                /*Pizza section starts*/
+
+#psection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;
+	
+	
+}
+.h1
+{
+	font-family:"sans-serif, Arial";
+	color:D4A26F;
+	font-size:30px;
+	font-style:bold;
+	text-align:center;
+	
+		
+	
+}
+.h2
+{
+	font-family:"Corbel";
+	color:aliceblue;
+	font-size:19px;
+	text-align:center;
+	
+}
+.menuline
+{
+    width: 300px;
+    background: #827c7b;
+    height: 4px;
+}
+
+
+
+
+.afghaniboti
+{
+	height:250px;
+	width:300px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background:url(Images/Pizza/Afhani%20tikka%20pizza.jpg);
+	background-size:300px 250px; 
+    background-repeat: no-repeat;
+		
+}
+
+
+
+.Creamychicken
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/creemy%20chicken%20pizza.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+.maccronipizza
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/maccroni%20adn%20cheese%20pizza.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+    background-repeat: no-repeat;
+}
+.Buffalopizza
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/BUFFALO%20CHICKEN%20PIZZA.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+     background-repeat: no-repeat;
+		
+}
+.hummuspizza
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/Hummus%20And%20Zucchini%20pizza.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;	
+     background-repeat: no-repeat;
+}
+.richchickenpizza
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/RICH%20CHICKEN%20ALFREDO%20PIZZA%20RECIPE.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+     background-repeat: no-repeat;
+	
+}
+.BerryArugulaPizza
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/Berry%20With%20Arugula%20and%20Prosciutto%20Pizza.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+     background-repeat: no-repeat;
+		
+}
+.BUTTERNUTSQUASHCRISPYPIZZA
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/BUTTERNUT%20SQUASH%20AND%20CRISPY%20SAGE%20PIZZA.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;	
+     background-repeat: no-repeat;
+}
+.TacoQuesadillaPizza
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Pizza/Taco%20Quesadilla%20Pizza.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+     background-repeat: no-repeat;
+	
+}
+                    /*Pizza section End*/
+
+				
+					/*bread section starts*/
+.bsection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;	
+	
+}
+.Garlics
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Breads/garlic%20bread.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Toasted
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Breads/Toasted%20Garlic%20Bread.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.cheese
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Breads/SAVORY%20CHRISTMAS%20CHEESE%20BREAD.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+
+.french
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Breads/French%20Bread%20Pizza%20Recipe.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Pepperonib
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Breads/Pepperoni%20Pizza%20Bread.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+	
+}
+.braided
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Breads/Braided%20Stuffed%20Pizza%20Bread.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+}
+
+
+					/*bread section End*/
+					
+					/*sandwiches section starts*/
+.ssection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;	
+}			
+.Club
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Sandwich/Club%20sandwich.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.cheesesand
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Sandwich/Chicken%20Sandwich.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.veggie
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Sandwich/Vegetarian%20Chickpea%20Sandwich.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+.Smoked
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Sandwich/Smoked%20Salmon.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.GarlicMayo 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Sandwich/Tomato,%20Bacon,%20and%20Garlic%20Mayo.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.RoastBeef 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Sandwich/ROAST%20BEEF%20SANDWICHES.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+
+					/*sandwiches section end*/
+					/*desserts section starts*/
+.dsection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;	
+}			
+.Apple
+{
+	height:250px;
+	width:300px;
+	background:url(Images/desserts/Apple%20Crisp.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Maple
+{
+	height:250px;
+	width:300px;
+	background:url(Images/desserts/Maple%20Walnut%20Fudge.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Rice
+{
+	height:250px;
+	width:300px;
+	background:url(Images/desserts/Creamy%20Rice%20Pudding.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+
+.Microwave
+{
+	height:250px;
+	width:300px;
+	background:url(Images/desserts/Microwave%20Lemon%20Curd.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Mississippi 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/desserts/Mississippi%20Mud%20Cheesecake.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Walnut 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/desserts/Walnut%20Brownies.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+
+					
+					
+					/*desserts section end*/
+					/*Appetizer section starts*/
+.asection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;	
+}
+.AVOCADO
+{
+	height:250px;
+	width:300px;
+	background:url(Images/appetizer/AVOCADO%20SALSA.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.BUFFALOCHICKEN 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/appetizer/BUFFALO%20CHICKEN%20DIP%20RECIPE.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.CUCUMBERSTUFFED 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/appetizer/CUCUMBER-STUFFED%20CHERRY%20TOMATOES.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+.GLAZEDCHICKEN 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/appetizer/GLAZED%20CHICKEN%20WINGS.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.HONEYGARLIC  
+{
+	height:250px;
+	width:300px;
+	background:url(Images/appetizer/HONEY-GARLIC%20GLAZED%20MEATBALLS.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.PEPPERPOPPERS  
+{
+	height:250px;
+	width:300px;
+	background:url(Images/appetizer/Pepper%20Poppers.jpeg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+					
+					/*Appetizer section End*/
+					/*topping section starts*/										
+			
+.tsection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;	
+}					
+.Pepperoni
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Pepperoni%20topping.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.BlackOlives 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Black%20olives%20topping.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.cheeset
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/cheese%20topping.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+.Greenpeppers
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Green%20peppers%20topping.JPG);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Mushrooms 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Mushrooms%20topping.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Onions
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Onions%20topping.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+				
+.Pineapple
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Pineapple%20topping.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Sausage 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Sausage%20topping.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Spinach
+{
+	height:250px;
+	width:300px;
+	background:url(Images/toppings/Spinach%20topping.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+					
+					/*topping section end*/
+
+  					/*beverages section starts*/
+.bvsection
+{
+	height:auto;
+	width:1300px;
+	background:#181817;	
+}					
+.pepsi
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/pepsi.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.coke 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/coke.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.dew
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/dew.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+	
+.sprite
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/sprite.png);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.up 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/7up.png);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.mirinda
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/mirinda.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+				
+.tea
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/tea.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.coffee 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/coffee.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.expresso
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/expresso.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+.chocolate
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/chocolate.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.cappuccino 
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/cappuccino.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.greentea
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/greentea.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+	
+.Watermelon
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/Watermelon.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.banana
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/Banana.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.AamRas
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/aamras.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+							
+.Lychee
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/lychee.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Berry
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/berry.jpg);
+	background-size:300px 250px;
+	float:right;
+	margin-right:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}
+.Grape
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/grape.jpg);
+	background-size:300px 250px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}		
+
+.Aquafina
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/Aquafina.jpg);
+	background-size:300px 250px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+	
+		
+}
+.Nestle
+{
+	height:250px;
+	width:300px;
+	background:url(Images/Beverages/Nestle.jpg);
+	background-size:300px 250px;
+	float:left;
+	margin-left:100px;
+	margin-top:60px;
+	border-radius:30px 0px;
+	border-style:outset;
+		
+}	
+
+				
+				
+					
+					/*beverages section end*/
+				
+
+					
+			 /*menu pizza End*/
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
